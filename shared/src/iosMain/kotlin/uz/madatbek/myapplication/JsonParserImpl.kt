@@ -14,8 +14,6 @@ actual class JsonParserImpl : JsonParser {
             age=json.substringAfter("\"age\":\"").substringBefore("\",").toInt()
         )
     }
-
-
 }
 
 /*
